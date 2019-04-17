@@ -4,7 +4,7 @@ var pool = mysql.createPool({
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'furniture'
+    database: 'assests'
 });
 // 接收一个sql语句 以及所需的values
 // 这里接收第二参数values的原因是可以使用mysql的占位符 '?'
