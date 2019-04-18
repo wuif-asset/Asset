@@ -92,8 +92,7 @@
                                     <span>资产分类</span>
                                 </template>
                                 <el-menu-item-group>
-                                    <el-menu-item index="1-1">添加分类</el-menu-item>
-                                    <el-menu-item index="1-2">查看分类</el-menu-item>
+                                    <el-menu-item index="/main/assetsclass">查看分类</el-menu-item>
                                 </el-menu-item-group>
                             </el-submenu>
                             <el-submenu index="4">
@@ -116,12 +115,16 @@
                                     <el-menu-item index="1-2">查看资产型号</el-menu-item>
                                 </el-menu-item-group>
                             </el-submenu>
-                            <el-menu-item index="6">
+                            <el-submenu index="6">
                                 <template slot="title">
                                     <i class="el-icon-location"></i>
                                     <span>资产入库</span>
                                 </template>
-                            </el-menu-item>
+                                <el-menu-item-group>
+                                    <el-menu-item index="/main/assetinsert">添加资产</el-menu-item>
+                                    <el-menu-item index="/main/asset">查看资产</el-menu-item>
+                                </el-menu-item-group>
+                            </el-submenu>
                         </el-menu>
                     </el-col>
                 </el-row>
